@@ -30,7 +30,7 @@ export interface Props {
     width: number;
     height: number;
   };
-  maxHeight?: number;
+  maxHeight?: number | string;
   children: ReactElement;
   debounce?: number;
   id?: string | number;
